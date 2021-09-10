@@ -10,7 +10,7 @@
 1) [Spring Framework](https://khj93.tistory.com/entry/Spring-Spring-Framework%EB%9E%80-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%ED%95%B5%EC%8B%AC-%EC%A0%95%EB%A6%AC) <br>
 
 2) [Oracle DB](https://opentutorials.org/course/3162/19527)
-* DB란 무엇일까?<br>
+###### DB란 무엇일까?<br>
 - 통합된 데이터(Intergrated data) : 자료를 하나로 통합하여 수정, 생성 작업이 발생하더라도 중복되지 않습니다.
 - 공유된 데이터(Shared data) : 여러 응용 시스템에서 공동으로 접근가능하고 소유할 수 있는 데이터입니다.
 - 운영 데이터(Operational data) : 운영 가능하고 업무에 반드시 필요한 데이터입니다.
@@ -22,6 +22,13 @@ RDBMS(관계형 데이터베이스 관리 시스템)이고 하나의 데이터�
 그 외의 RDBMS에는 사이베이스, 인포믹스, Mysql, SQL Server가 있다.
 
 3) HTML5
+월드와이드웹을 통해 제공되는 정보를 나타낼 목적으로 사용되는 마크업 언어이며 차세대 웹표준으로 확정된 HTML의 5번째 버전을 의미한다.
+###### HTML5의 디자인 원칙
+ - 호환성
+ - 실용성
+ - 상호 운영성
+ - 보편적 접근성
+
 4) CSS
 5) Javascript
 6) Jquery
