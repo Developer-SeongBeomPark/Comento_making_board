@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T13:28:17.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dW-K3-m0LXkGtf7kztRE" version="15.9.6" type="github"><diagram id="EH3msbrBh5q5FY1jK0Du" name="Page-1">7Vlbb5swFP41lraHTYAhwCO3rZraaVK1rX2avOAGNoIj49z662eDudOGZLlM7Z6CP44vfOd85xwrAHrzzUeKFtENCXECNCXcAOgDTVMVaPEfgWwLxNDNApjROJRGNXAbP+JypkSXcYizliEjJGHxog1OSZriKWthiFKybps9kKS96wLNcA+4naKkj36PQxYVqKWZNX6F41lU7qxO7OLNHJXG8kuyCIVk3YBgAKBHCWHF03zj4USQV/JSzPvwxNvqYBSnbMyEa3TjGubd6u5TeEW2Xx9+fPu2eVfSvELJUn6xPC3blhTgkDMih4SyiMxIipKgRl1KlmmIxT4KH9U214QsOKhy8BdmbCvdi5aMcChi80S+LfYUGz35cRLKyJJO8TNfJM/PEJ1h9oydXbmAxy4mc8zols+jOEEsXrXPgWQQzSq7mmf+IKneg3atz3rgAscGtg4CD9g+cLluFBD4wAqAbZVg/tYxgaX0vNT2wTqKGb5doJyqNZfmEN8rTBnePM94nyE5QZdHkLquxutaJbaEooZASrOjUwpHBHIaOiIl8NE0QVkWT9ustCnkPNDtXXNwLwbvjXLob5ov/a0cjY/lnTE6GfZAg2JjgOISGx3KcocvJOYHrByswo6HJx3XFVKUs5qJp7NQlcufWqjgobcQ9xXaNswWwiDrBUpFzOGxYwzLUQW2BwIHuKaQY0uXLnA1YOm5QLmBV4pVzTXK506A4/cCkKuNtUMOJfEsFfHIYwNTDghNxrz8OPLFPA7DIsfiLH5EP/OlRJhJNvi6hgsMX6zF02pWZFixdMYo+Y09khC+rp+SVKzyECdJBzpCLuiFykAyUNWBUNVOlQ1U+6XVtcnInKFaf1nYdmhvWOO60okAo9OM7LJvNy/8oTjBUWU+2Vvmh5Rf9Szld0z9HZTcyQrwgOI4f7YDLC/nzwW8HxA0K4I/gQTAMnpE7qCuLcnj9zHQuHAfo1rDUbpHb/hmV1jzZzuvXtwMcv+8vXg465NOOCuXDueyNP1vCg50aaWkTkm4XFMA1TEpqhCIowDbyF0Khfe0RsYSnlSA009dL9WTWteT2rgceTpH6iO6u6Nc9rQz3vagMeyF81z3enI1D7zudVM5VDsL7X3dG9lCmvu1nFA5Q8sJ979a/rs9Z69I25cu0tDs0Xv/atKyrug7eybtrGm537p+frXegKfzBh/WfxsUmar+8wUGfwA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T14:01:08.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oE8qRpaSdeiwjRbH6V1q" version="15.9.6" type="github">
+  <diagram id="EH3msbrBh5q5FY1jK0Du" name="Page-1">
+    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LaMB57XvXJdHoyUf_VVx-2" target="LaMB57XvXJdHoyUf_VVx-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-2" value="메인 페이지" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="50" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LaMB57XvXJdHoyUf_VVx-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="70" as="sourcePoint" />
+            <mxPoint x="180" y="70" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-5" value="로그인 버튼 클릭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LaMB57XvXJdHoyUf_VVx-6" target="LaMB57XvXJdHoyUf_VVx-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="60" />
+              <mxPoint x="370" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-6" value="로그인 페이지" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LaMB57XvXJdHoyUf_VVx-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LaMB57XvXJdHoyUf_VVx-9" target="LaMB57XvXJdHoyUf_VVx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-9" value="회원가입 페이지" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-18" value="메인 페이지(로그인 완료)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-20" value="로그인 버튼 클릭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="60" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-31" value="회원 정보 입력" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="220" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="LaMB57XvXJdHoyUf_VVx-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="sourcePoint" />
+            <mxPoint x="430" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="80" />
+              <mxPoint x="370" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-35" value="로그인 페이지" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-37" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="374" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaMB57XvXJdHoyUf_VVx-38" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="374" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-1" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-7" value="제출" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99" y="232" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-8" value="회원가입 버튼 클릭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="49" y="110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M4ED3lmORWMHatyZqBaW-11" value="취소" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-54" y="110" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
