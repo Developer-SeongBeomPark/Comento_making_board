@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T07:15:31.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="PlsuObT1CCp9OyR6E7LF" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T13:03:37.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tOYlDaI2u_o04A7aGOvL" version="15.9.6" type="github">
   <diagram id="EH3msbrBh5q5FY1jK0Du" name="Page-1">
     <mxGraphModel dx="2653" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,47 @@
         </mxCell>
         <mxCell id="SGr0XQBl3OwgbN3nPRdX-14" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="SGr0XQBl3OwgbN3nPRdX-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SGr0XQBl3OwgbN3nPRdX-20" target="SGr0XQBl3OwgbN3nPRdX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-20" value="사업장 선택" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SGr0XQBl3OwgbN3nPRdX-22" target="SGr0XQBl3OwgbN3nPRdX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr0XQBl3OwgbN3nPRdX-22" target="SGr0XQBl3OwgbN3nPRdX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr0XQBl3OwgbN3nPRdX-22" target="SGr0XQBl3OwgbN3nPRdX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr0XQBl3OwgbN3nPRdX-22" target="SGr0XQBl3OwgbN3nPRdX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-22" value="회신 기간 설정&lt;br&gt;제출 양식 등록" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-24" value="본사" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="330" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-25" value="A 사업장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-27" value="B 사업장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-28" value="C 사업장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr0XQBl3OwgbN3nPRdX-29" value="D 사업장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
