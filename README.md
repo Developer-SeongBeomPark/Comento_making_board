@@ -39,14 +39,20 @@ RDBMS(관계형 데이터베이스 관리 시스템)이고 하나의 데이터�
 9) Mybatis
  * select 태그<br>
  ex)
- <pre><code>
+ ```
  <select id = "login" resultType = "memberVO" parameterType = "java.util.Map">
      <![CDATA[
       select * from members where id = #{id} and password = #{password}
      ]]>
  </select>
- </code></pre>
- 
+ ```
+ |속성|설명|
+ |-------|----------------|
+ |id|구문을 찾기 위한 유일한 구분자|
+ |parameterType|구문에 전달되는 파라미터의 alias나 풀 클래스명|
+ |resultType|구문의 결과를 받을 alias나 풀 클래스명|
+ |resultMap|resultType과 다르게 xml 내 선언해서 사용하는 커스텀 맵|
+
  
 
 
