@@ -80,10 +80,41 @@ typeAliases 태그 : VO(DTO) 객체를 매퍼.xml에서 간편하게 사용할 �
  DB의 부하를 줄이고 유동적으로 연결을 관리할 수 있다.
 
  
+<h4>SqlSessionFactory</h4>
 
+```
+<bean id ="sqlSessionFactory" class= "org.mybatis.spring.SqlSessionFactoryBean" >
+	    <property name="dataSource" ref="dataSource" />
+	  <property name="configLocation" value="classpath:mybatis/models/modelConfig.xml"  />
+	  <property name="mapperLocations" value="classpath*:mybatis/mappers/*.xml" />
+	</bean >
+```
+데이터베이스와의 연결과 SQL의 실행에 대한 모든 것을 가진 가장 중요한 객체이다.<br>
+이 객체가 DataSource를 참조하여 Mybatis와 DB서버를 연동시켜준다.
 
+<h4>SessionFactory</h4>
+: 단일 데이터 저장소, 안정적인 스레드를 위한 목적으로 사용된다.<br>
+SessionFactory를 사용함으로서 다수의 스레드가 DB세션에 동시에 접근가능하며 특정 데이터베이스에 매핑된 캐시가 변하지 않는다.<br>
+SessionFactory는 프로그램이 실행될 때만 생성되고 프로그램 내의 소스코드가 이에 접근할 수 있도록 Singleton 형태를 지닌다.
 
+<h4>Config</h4>
+Mybatis는 SQL Mapping 프레임워크로 별도의 설정 파일을 가질 수 있다.
+* mybatis-config.xml 파일을 이용
+* sqlSessionFactory에 다음과 같이 configLocation 속성을 추가
 
+--> 별도의 설정파일이 필요한 다른 이유는 마이바티스 XML파일이 매퍼 클래스와 동일한 classpath에 있지 않은 경우다.<br>
+Spring + Mybatis를 사용하면, DataSource와 SqlSessionFactory를 정의해서 빈으로 주입시켜줘야한다.
+* configLocation : mybatis 설정파일이 위치한 경로를 지정(주로 mybatis-config.xml 위치)
+* mapperLocations : Mapper를 스캔하기 위한 XML 파일 경로 지정(*mapper.xml 파일들이 모여있는 위치)
+
+<h4>SqlSessionTemplate</h4>
+SessionFactory에 DatabaseSource를 주입하여 DB와의 연결통로를 만들고, 각 DAO에서 DB와의 연결을 사용하기 위해 SessionTemplate를 주입한다.
+
+```
+<bean id ="sqlSession" class= "org.mybatis.spring.SqlSessionTemplate" >
+    <constructor-arg ref= "sqlSessionFactory"></constructor-arg >
+</bean >
+```
 
 <hr/>
 
