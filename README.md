@@ -77,8 +77,7 @@ typeAliases 태그 : VO(DTO) 객체를 매퍼.xml에서 간편하게 사용할 �
 ```
 
  JDBC를 통해 DB를 연결할 경우, 매번 드라이버를 로드하고 Connection 객체를 가져와야하는데 매우 비효율적이다.<br>
- 이를 해소하기 위해 웹 컨테이너가 실행되면서 DB와 연결된 Connection 객체를 미리 Pool에 생성해두고 필요할 때에 <br>
- 가져다쓰고 반환한다.<br>
+ 이를 해소하기 위해 웹 컨테이너가 실행되면서 DB와 연결된 Connection 객체를 미리 Pool에 생성해두고 필요할 때에 가져다쓰고 반환한다.<br>
  DB의 부하를 줄이고 유동적으로 연결을 관리할 수 있다.
 
  
@@ -117,6 +116,18 @@ SessionFactory에 DatabaseSource를 주입하여 DB와의 연결통로를 만들
     <constructor-arg ref= "sqlSessionFactory"></constructor-arg >
 </bean >
 ```
+
+<h4>MapperScannerConfigurer</h4>
+
+```
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="mapper.AAA" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryAAA" />
+</bean>
+```
+Mapper 인터페이스의 수가 많아지면 MapperScannerConfigurer를 이용하여 Mapper 인터페이스의 객체를 한 번에 등록하는 것이 편리함.<br>
+이를 이용하면 지정한 패키지 아래 모든 인터페이스가 Mapper 인터페이스로 간주되어 Mapper 인터페이스의 객체가 DI컨테이너에 등록되는 것이다.<br>
+basePackage 속성에서 지정하는 것은 Mapper 인터페이스를 검색할 대상이 되는 Package
 
 <hr/>
 
