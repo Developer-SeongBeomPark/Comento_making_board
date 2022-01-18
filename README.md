@@ -36,8 +36,14 @@ RDBMS(관계형 데이터베이스 관리 시스템)이고 하나의 데이터�
 
 
 
-9) Mybatis
- * select 태그<br>
+8) Mybatis
+<h3>필요한 설정파일</h3>
+1. configuration xml 파일
+typeAliases 태그 : VO(DTO) 객체를 매퍼.xml에서 간편하게 사용할 수 있도록 alias(별명)를 지정하는 태그
+<br>
+2. mapper xml 파일
+
+* select 태그<br>
  ex)
  ```
  <select id = "login" resultType = "memberVO" parameterType = "java.util.Map">
@@ -52,6 +58,25 @@ RDBMS(관계형 데이터베이스 관리 시스템)이고 하나의 데이터�
  |parameterType|구문에 전달되는 파라미터의 alias나 풀 클래스명|
  |resultType|구문의 결과를 받을 alias나 풀 클래스명|
  |resultMap|resultType과 다르게 xml 내 선언해서 사용하는 커스텀 맵|
+<br>
+
+3. mybatis context xml 파일
+<h3>Database Connection Pool(DBCP)</h3>
+```
+<bean id="dataSource"
+		class="org.apache.ibatis.datasource.pooled.PooledDataSource">
+		<property name="driver"
+			value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+```
+
+ JDBC를 통해 DB를 연결할 경우, 매번 드라이버를 로드하고 Connection 객체를 가져와야하는데 매우 비효율적이다.<br>
+ 이를 해소하기 위해 웹 컨테이너가 실행되면서 DB와 연결된 Connection 객체를 미리 Pool에 생성해두고 필요할 때에 <br>
+ 가져다쓰고 반환한다.<br>
+ DB의 부하를 줄이고 유동적으로 연결을 관리할 수 있다.
 
  
 
