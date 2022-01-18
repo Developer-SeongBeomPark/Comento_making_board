@@ -33,7 +33,21 @@ RDBMS(관계형 데이터베이스 관리 시스템)이고 하나의 데이터�
 5) Javascript
 6) Jquery
 7) Ajax
-8) Mybatis
+
+
+
+9) Mybatis
+ * select 태그<br>
+ ex)
+ <pre><code>
+ <select id = "login" resultType = "memberVO" parameterType = "java.util.Map">
+     <![CDATA[
+      select * from members where id = #{id} and password = #{password}
+     ]]>
+ </select>
+ </code></pre>
+ 
+ 
 
 
 
